@@ -32,3 +32,18 @@ Math.random();
 var pi = Math.PI;
 console.log(Math.random());
 console.log(pi);
+
+var menu = {
+  width: 800,
+  heigth: 50,
+  background: "#81f",
+};
+
+menu.background = "#000";
+menu.color = "blue";
+
+menu.esconder = function () {
+  console.log("Escondi");
+};
+
+var bg = menu.background;
